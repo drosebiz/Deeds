@@ -9,9 +9,16 @@ Link to Chrome download: https://www.google.com/chrome/
 4. Open installer, make sure you click "Add Python 3.10 to PATH"
 5. Choose default installation
 6. https://www.youtube.com/watch?v=uKHVNKd3f20&ab_channel=AmitThinks also explains how to do this
-### 3. Edit Login Information
-1. Right-click `login.txt` and select "Edit"
-2. Type in your login information for the Larimer County Records website as follows:<br>
+### 3. Download and Extract Web Scraper ZIP
+1. On this webpage (https://github.com/drosebiz/Deeds.git), look for the green button that says "Code". Click the dropdown arrow in that button.
+2. At the bottom of this menu, click `Download ZIP`.
+3. Wait for the ZIP to download, then open your Windows File Explorer. The ZIP should be in your Downloads folder.
+4. Right-click `Deeds-main.zip` and select "Extract All..."
+5. Choose your desired file location (i.e. `/Documents/Deed_Scraper/`). You'll need to access this folder regularly so keep it convenient!
+### 4. Edit Login Information
+1. Open the Deeds-main folder. 
+2. Right-click `login.txt` and select "Edit"
+3. Type in your login information for the Larimer County Records website as follows:
       ```
       Username: your_usename@email.com
       Password: pwd_here
